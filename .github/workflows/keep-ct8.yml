@@ -1,10 +1,9 @@
 name: 批量访问保活进程-ct8
 
 on:
-  schedule:
-    # 使用cron表达式定义任务运行的时间
-    #github最小时间间隔为10分钟
-    - cron: '0 0 */3 * *'
+
+  repository_dispatch:
+    types: [ct8]
   workflow_dispatch:
 
 jobs:
