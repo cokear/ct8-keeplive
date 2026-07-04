@@ -31,7 +31,7 @@ encrypt_username() {
         local prefix="${username:0:2}"
         local stars=""
         for ((i=2; i<length; i++)); do
-            stars="${stars}*"
+            stars="${stars}x"
         done
         echo "${prefix}${stars}"
     fi
