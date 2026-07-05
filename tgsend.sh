@@ -31,7 +31,7 @@ urlencode() {
 
 toTGMsg() {
   local msg=$1
-  local title="*Serv00-play通知*"
+  local title="*ct8通知*"
   local host_icon="🖥️"
   local user_icon="👤"
   local time_icon="⏰"
